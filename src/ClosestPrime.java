@@ -15,7 +15,6 @@ public class ClosestPrime {
             System.out.println("Không có số nguyên tố nhỏ hơn và gần x nhất.");
         }
 
-        // Đóng Scanner sau khi sử dụng để tránh rò rỉ tài nguyên
         scanner.close();
     }
 
@@ -25,7 +24,7 @@ public class ClosestPrime {
                 return i;
             }
         }
-        return -1; // Không tìm thấy số nguyên tố
+        return -1; 
     }
 
     public static boolean isPrime(int number) {
